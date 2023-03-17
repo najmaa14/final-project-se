@@ -1,7 +1,6 @@
 PROGRAM Hospital Admission (proses pendaftaran data pasien rawat inap)
 
 START
-
 	READ AND WRITE "entryDate" with date
 	STORE "entryDate" with "dd/mm/yyyy"
 	PRINT "entryDate"
@@ -27,5 +26,4 @@ START
 
 		PRINT "Registration Successful!"
 	ENDIF
-
 END
