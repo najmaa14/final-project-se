@@ -1,0 +1,31 @@
+PROGRAM Hospital Admission (proses pendaftaran data pasien rawat inap)
+
+START
+
+	READ AND WRITE "entryDate" with date
+	STORE "entryDate" with "dd/mm/yyyy"
+	PRINT "entryDate"
+
+	READ AND WRITE "patientName" with string
+	STORE "patientName" with "Alea"
+	PRINT "patientName"
+
+	READ AND WRITE "patientAge" with integer
+	STORE "patientAge" with 13
+	PRINT "patientAge"
+
+	IF patientAge more than or equal "18"
+		PRINT "Registration Successful!"
+	ELSE
+		READ AND WRITE "patientParents" with string
+		STORE "patientParents" with "Kuncoro"
+		PRINT "patientParents"
+		
+		READ AND WRITE "parentsPhone" with varchar
+		STORE "parentsPhone" with "081134972142"
+		PRINT "parentsPhone"
+
+		PRINT "Registration Successful!"
+	ENDIF
+
+END
